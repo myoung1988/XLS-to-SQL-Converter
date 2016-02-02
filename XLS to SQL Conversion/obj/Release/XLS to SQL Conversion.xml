@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+XLStoSQLConversion
+</name>
+</assembly>
+<members>
+<member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.Delete_Example">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.Insert_Example">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.ss">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.Test_Install_sql">
+	<summary>
+  Looks up a localized string similar to CREATE TABLE Test_Table_Excel_SQL(Key1 int,Col1_NotNull varchar(255) not null,Col2_NotNull varchar(255) not null,Col3 varchar(255),Col4 varchar(255),Col5 varchar(255),Col6 varchar(255),Col7 varchar(255)) 
+
+INSERT INTO Test_Table_Excel_SQL VALUES (1,11,22,33,44,55,66,77)
+INSERT INTO Test_Table_Excel_SQL VALUES (2,12,23,34,45,56,67,78)
+INSERT INTO Test_Table_Excel_SQL VALUES (3,13,24,35,46,57,68,79)
+INSERT INTO Test_Table_Excel_SQL VALUES (4,14,25,36,47,58,69,80)
+INSERT INTO Test_Table_Excel_SQL VALUES  [rest of string was truncated]";.
+</summary>
+</member><member name="P:XLS_to_SQL_Conversion.My.Resources.Resources.Update_Example">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:XLS_to_SQL_Conversion.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

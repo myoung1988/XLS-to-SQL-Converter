@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="XLS to SQL Conversion.exe" version="1.0.0.19" publicKeyToken="72f39cc92aeb54e5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Untitled-1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="XLS to SQL Conversion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="XLS to SQL Conversion.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="XLS to SQL Conversion.exe" size="380416">
+      <assemblyIdentity name="XLS to SQL Conversion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5rp4FKp1avLCpweI5M/OkRUe80vFgHyK6LmEJpccizg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Untitled-1.ico" size="105662">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5W1UfvUoG+CVk0/ow/wEKbLn7jjHVtxWabmcMElgBcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="XLS to SQL Conversion.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=JOLIET\myoung" issuerKeyHash="3019ce5ad174d5e26c5a8577528f34a96bfffa85" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eavjx1xgzXlB/TJYqzAosI5NzpdyibLlIJ1Vxw0lRxw=</DigestValue></Reference></SignedInfo><SignatureValue>tiLvY5WE98/SOkSJqCg++oVyUM436Wgj0bkJRo195qnvL4qzqcVQchEAgtn6OgiDEIoU6KP1zx2ji+joS7pN7/WSxirKsk8JWX5cdcnpBaYsOnHlk3kE3+DugpuM5heSDyyJAhNaWiOqefHoIPXclwHMRG154odZY3YcJEOaWKg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5wgn8U6Za8ME106QdS7cQGErGCE5Hx5wH9uheAISWCYz7yWKq2H7saiyE9Z7a8ElOXM1dNHU3263kjF8Pg24P3FH7zk7ZuWBfEjpZV6TDvzipi2Q1A35Eexytrme8JHR6ppFhtUf5VIDU7tkomP1jDAe264gurxsOLdqHidEaGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1c47250dc7559d20e5b2897297ce4d8eb02830ab5832fd4179cd605cc7e3ab79" Description="" Url=""><as:assemblyIdentity name="XLS to SQL Conversion.exe" version="1.0.0.19" publicKeyToken="72f39cc92aeb54e5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JOLIET\myoung</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+mHJyVAkdqIZMZNBJtN7pIFnmti0uG46WmdmzhZlbQg=</DigestValue></Reference></SignedInfo><SignatureValue>KE6TTbOPwdnyTRaTE8uNGUPT1WUvIqiHL907LLJjlUYJbs3vgCGkhZlL3ZOgRRqVTUWuY9E7c0owB7AECXHfRn1WSuJVZeZ5XnT0FWgjzCMyqFCKm9oiCnT3jteu5jTE/CNK2Wd8a+jjQE8Mdx5BUbafKQpz5TxKCmMs1B3/YD0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5wgn8U6Za8ME106QdS7cQGErGCE5Hx5wH9uheAISWCYz7yWKq2H7saiyE9Z7a8ElOXM1dNHU3263kjF8Pg24P3FH7zk7ZuWBfEjpZV6TDvzipi2Q1A35Eexytrme8JHR6ppFhtUf5VIDU7tkomP1jDAe264gurxsOLdqHidEaGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQTJaThMydvoRGb6Cpm4P5tzANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoASgBPAEwASQBFAFQAXABtAHkAbwB1AG4AZzAeFw0xMzA1MDkyMTI5NTBaFw0xNDA1MTAwMzI5NTBaMCUxIzAhBgNVBAMeGgBKAE8ATABJAEUAVABcAG0AeQBvAHUAbgBnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnCCfxTplrwwTXTpB1LtxAYSsYITkfHnAf26F4AhJYJjPvJYqrYfuxqLIT1ntrwSU5czV00dTfbreSMXw+Dbg/cUfvOTtm5YF8SOllXpMO/OKmLZDUDfkR7HK2uZ7wkdHqmkWG1R/lUgNTu2SiY/WMMB7briC6vGw4t2oeJ0RoaQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALv0j1Gre0MnHS/eLZ9u6YkAmSJgU9NkbbbEyc/6fAUThQaEYnuCWHTNKKcn7wHuyuaAsFkwTPaqev3sT1XfQC+nEnZM+/oRs0PJofftGcqseYPGO7xWxsmSwPBZRXM79HtnXIHj0BB+PVLvvX9B06gudpuPLPGbGRfWA7KqTtoJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

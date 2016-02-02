@@ -1,0 +1,14 @@
+INSTALLATION INSTRUCTIONS:
+
+1. Copy the "Excel to SQL Conversion" Folder
+2. Paste the Folder in the Program Files path (C:\Program Files). 
+	If you are running a 64-bit machine, place it in the Program Files (x86) Folder.
+3. Right Click on the "Excel to SQL Conversion.exe" file and click "Create Shortcut"
+4. Rename the Shortcut if you wish.
+5. Copy the Shortcut
+6. If you want a Shortcut on your Desktop, paste it there. 
+7. Navigate to, "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\"
+8. Create a new Folder called "Excel to SQL Converstion"
+9. Open the Folder and paste the Shortcut in the folder.
+
+The program will now display in your start menu and desktop (if you chose)
